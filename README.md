@@ -8,6 +8,7 @@ Technologies
       Network Security Groups (NSGs)
       Virtual Networks (VNets)
       Azure Virtual Machines
+      
 Current Progress
 
     Week 1 - Foundation
@@ -21,34 +22,63 @@ Current Progress
           Roadmap
           
     Week 2 - Identity Security
-          Entra ID Administration
+          Cloud-Native Administrative Account
+          Break Glass Administrative Account
+          Microsoft Entra ID P2
           Multi-Factor Authentication (MFA)
-          Role-Based Access Control (RBAC)
+          Security Groups
+          Group-Based Access Control
+          Azure RBAC
+          Conditional Access
+          Privileged Identity Management (PIM)
+          Identity Governance Architecture
           
     Week 3 - Cloud Security Posture
+          Ubuntu Server Deployment
+          SSH Administration
+          Linux Hardening
           Microsoft Defender for Cloud
           Secure Score Analysis
+          Security Recommendations
           Remediation Activities
           
     Week 4 - Security Monitoring
-          Microsoft Sentinel
           Log Analytics Workspace
-          Data Collection Rules
+          Microsoft Sentinel
+          Data Connectors
+          Windows Event Collection
+          Linux Syslog Collection
+          Security Dashboards
+
           
     Week 5 - Threat Hunting
           KQL Queries
           Analytics Rules
           Incident Investigation
+          MITRE ATT&CK Mapping
+          Threat Hunting Methodology
+          Detection Engineering
           
     Week 6 - Automation
           Logic Apps
           Automated Response Actions
           Security Playbooks
+          Alert Triage Automation
+          Incident Response Workflows
           
     Week 7 - Infrastructure as Code
           Terraform
           Repeatable Deployments
           Security Baselines
+          Infrastructure Version Control
+          Automated Environment Provisioning
+    
+    Week 8 - Enterprise Security Operations
+          Full Environment Review
+          Secure Architecture Assessment
+          Final Documentation
+          Lessons Learned
+          Portfolio Presentation
 
 Architecture
 
