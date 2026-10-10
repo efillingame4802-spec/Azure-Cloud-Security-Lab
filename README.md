@@ -85,13 +85,17 @@ Architecture
       This project is designed to demonstrate practical Azure cloud security engineering skills including:
 
       Azure Administration
-      Network Security
+      Cloud Networking
       Identity Security
+      Zero Trust Architecture
+      Privileged Access Management
+      Security Monitoring
       Threat Detection
       Threat Hunting
-      Security Monitoring
       Security Automation
       Infrastructure as Code
+      Azure Security Operations
+
 Certifications Supported
 
       This lab supports preparation for:
