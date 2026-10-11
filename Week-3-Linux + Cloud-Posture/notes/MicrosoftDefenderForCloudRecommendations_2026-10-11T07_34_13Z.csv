@@ -1,0 +1,14 @@
+﻿maturityLevel,riskLevel,isContextualRisk,riskFactors,attackPaths,statusCode,displayName,resourceType,resourceName,severity,completionStatus
+Preview,,0,,0,Unhealthy,Azure Backup should be enabled for virtual machines,microsoft.compute/virtualmachines,vm-win2022,Low,Unassigned
+Preview,,0,,0,Unhealthy,Email notification for high severity alerts should be enabled,subscription,0ce8f673-bad1-4837-bb82-dd67e81998f9,Low,Unassigned
+Preview,,0,,0,Unhealthy,Email notification to subscription owner for high severity alerts should be enabled,subscription,0ce8f673-bad1-4837-bb82-dd67e81998f9,Medium,Unassigned
+Preview,,0,,0,Unhealthy,Guest Attestation extension should be installed on supported Windows virtual machines,microsoft.compute/virtualmachines,vm-win2022,Low,Unassigned
+GA,,0,,0,Unhealthy,Guest Configuration extension should be installed on machines,microsoft.compute/virtualmachines,vm-win2022,Medium,Unassigned
+GA,,0,,0,Unhealthy,Machines should be configured to periodically check for missing system updates,microsoft.compute/virtualmachines,vm-win2022,High,Unassigned
+Preview,,0,,0,Unhealthy,Microsoft Defender CSPM should be enabled,subscription,0ce8f673-bad1-4837-bb82-dd67e81998f9,High,Unassigned
+GA,,0,,0,Unhealthy,Microsoft Defender for Resource Manager should be enabled,subscription,0ce8f673-bad1-4837-bb82-dd67e81998f9,High,Unassigned
+GA,,0,,0,Unhealthy,Microsoft Defender for Storage plan should be enabled with Malware Scanning and Sensitive Data Threat Detection,subscription,0ce8f673-bad1-4837-bb82-dd67e81998f9,High,Unassigned
+GA,,0,,0,Unhealthy,Microsoft Defender for servers should be enabled,subscription,0ce8f673-bad1-4837-bb82-dd67e81998f9,High,Unassigned
+Preview,,0,,0,Unhealthy,Subscriptions should have a contact email address for security issues,subscription,0ce8f673-bad1-4837-bb82-dd67e81998f9,Low,Unassigned
+Preview,,0,,0,Unhealthy,Virtual machines and virtual machine scale sets should have encryption at host enabled,microsoft.compute/virtualmachines,vm-win2022,Medium,Unassigned
+GA,,0,,0,Unhealthy,Windows virtual machines should enable Azure Disk Encryption or EncryptionAtHost.,microsoft.compute/virtualmachines,vm-win2022,High,Unassigned
