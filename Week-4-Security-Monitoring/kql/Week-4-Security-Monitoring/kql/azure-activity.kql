@@ -1,0 +1,10 @@
+AzureActivity
+| where TimeGenerated > ago(2h)
+| project
+    TimeGenerated,
+    OperationNameValue,
+    ActivityStatusValue,
+    ResourceGroup,
+    ResourceProviderValue,
+    Caller
+| order by TimeGenerated desc
