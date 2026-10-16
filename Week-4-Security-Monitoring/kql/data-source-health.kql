@@ -1,0 +1,14 @@
+union withsource=SourceTable isfuzzy=true
+    (AzureActivity
+        | where TimeGenerated > ago(24h)),
+    (SecurityEvent
+        | where TimeGenerated > ago(24h)),
+    (Syslog
+        | where TimeGenerated > ago(24h)),
+    (Heartbeat
+        | where TimeGenerated > ago(24h))
+| summarize
+    Events=count(),
+    LastEvent=max(TimeGenerated)
+    by SourceTable
+| order by SourceTable asc
