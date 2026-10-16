@@ -11,7 +11,7 @@ Technologies
       
 Current Progress
 
-    Week 1 - Foundation ✅ 
+    ✅ Week 1 - Foundation 
           Resource Group
           VNet
           Subnet
@@ -21,7 +21,7 @@ Current Progress
           Cost Management
           Roadmap
           
-    Week 2 - Identity Security ✅ 
+    ✅ Week 2 - Identity Security  
           Cloud-Native Administrative Account
           Break Glass Administrative Account
           Microsoft Entra ID P2
@@ -33,7 +33,7 @@ Current Progress
           Privileged Identity Management (PIM)
           Identity Governance Architecture
           
-    Week 3 - Cloud Security Posture ✅ 
+    ✅ Week 3 - Cloud Security Posture  
           Ubuntu Server Deployment
           SSH Administration
           Linux Hardening
@@ -42,7 +42,7 @@ Current Progress
           Security Recommendations
           Remediation Activities
           
-    Week 4 - Security Monitoring ✅ 
+    ✅ Week 4 - Security Monitoring  
           Log Analytics Workspace
           Microsoft Sentinel
           Data Connectors
