@@ -12,7 +12,6 @@ SecurityEvent
     by EventID, Activity
 | order by EventCount desc
 
-
 SecurityEvent
 | where TimeGenerated > ago(2h)
 | where EventID in (4624, 4625, 4688)
