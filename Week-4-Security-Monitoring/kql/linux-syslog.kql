@@ -1,0 +1,25 @@
+Heartbeat
+| where TimeGenerated > ago(2h)
+| where Computer contains "vm-ubuntu"
+| summarize
+    LastHeartbeat=max(TimeGenerated)
+    by Computer
+
+Syslog
+| where TimeGenerated > ago(2h)
+| summarize
+    EventCount=count()
+    by Computer, Facility, SeverityLevel
+| order by EventCount desc
+
+Syslog
+| where TimeGenerated > ago(2h)
+| where SyslogMessage contains "Week4 Sentinel"
+| project
+    TimeGenerated,
+    Computer,
+    Facility,
+    SeverityLevel,
+    ProcessName,
+    SyslogMessage
+| order by TimeGenerated desc
